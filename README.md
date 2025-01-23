@@ -77,7 +77,7 @@ export default {
 </template>
 
 <script>
-import Toast from '@/components/Toast/ToastContainer'
+import Toast from "vue2-toast-lite"
 export default {
     components: {
         Toast
@@ -95,7 +95,7 @@ export default {
 
 
 ## 版本歷程
-
+* 1.1.1 文件錯字修改
 * 1.1.0 第一次發布
 
 ## License
