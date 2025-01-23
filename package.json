@@ -1,0 +1,54 @@
+{
+  "name": "vue2-toast-lite",
+  "version": "1.1.1",
+  "description": "這是一個非常簡易的toast。",
+  "author": "traveltime1221",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/traveltime1221/vue-toast-lite.git"
+  },
+  "keywords": [
+    "vue2",
+    "vue-component",
+    "toast",
+    "toast-lite",
+    "ui"
+  ],
+  "bugs": {
+    "url": "https://github.com/traveltime1221/vue2-toast-lite/issues"
+  },
+  "homepage": "https://github.com/traveltime1221/vue2-toast-lite#readme",
+  "type": "module",
+  "main": "dist/vue2-toast-lite.umd.js",
+  "module": "dist/vue2-toast-lite.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue2-toast-lite.esm.js",
+      "require": "./dist/vue2-toast-lite.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^1.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.31.0",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue": "2.7.16",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "peerDependencies": {
+    "vue": ">=2.6.0 <2.7.16",
+    "vue-template-compiler": ">=2.6.0 <2.7.16"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
